@@ -1,0 +1,344 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+main, nav{display: block;}
+
+body {background-image: url("images/yellow-brick-road2.png");}
+
+/* #PrimeHeader{color: red;
+			background-color: green;
+			text-align: center;
+			width: auto;
+			margin: 0% 10%;
+			} */
+	
+	
+/*Panel*/
+#landing {display: none;}
+
+#reward {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#panelA {display: none; text-align: center;}
+    #panelImgA {position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    #centeredA {  position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;}
+
+#panelB {display: none; text-align: center;}
+    #panelImgB {position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    #centeredB {  position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;}  
+
+#panelC {display: none; text-align: center;}
+    #panelImgC {position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);}
+    #centeredC {  position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;} 
+
+#panelD {display: none; text-align: center;}
+    #panelImgD {position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    #centeredD {  position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;}   
+
+#panelE {display: none; text-align: center;}
+    #panelImgE {position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);}
+    #centeredE {  position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;}    
+
+#panelF {display: none; text-align: center;}
+    #panelImgF {position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);}
+    #centeredF {  position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;} 
+
+#panelG {display: none; text-align: center;}
+    #panelImgG {position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    #centeredG {  position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 30px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 50px;} 
+
+        #infoImg{display: block; position: absolute; top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);}
+    
+
+
+    /* @media screen and (max-width: 900px){
+        #panelB {display: block}
+    } */
+    /* @media screen and (max-width: 950px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+    }  
+        
+    @media screen and (max-width: 900px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: block;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+    }     */
+    
+    /* @media screen and (max-width: 850px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+			
+	}
+
+	@media screen and (max-width: 700px) {
+
+        #panelA {display: none;}
+        #panelB {display: block;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+			
+    }
+    
+    @media screen and (max-width: 650px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+			
+	} */
+
+    /*centered*/        
+    /* @media (max-height: 500px) and (max-width: 580px) {
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}   
+     } */
+
+    /* top corner stubby */
+   
+    @media (min-height: 600px) and (min-width: 800px) and (max-height: 900px) and (max-width: 900px) {
+        #panelA {display: block;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}  
+    }
+
+    @media (min-height: 350px) and (min-width: 350px) and (max-height: 500px) and (max-width: 500px) {
+        #panelA {display: none;}
+        #panelB {display: block;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}  
+    }
+
+    @media (min-height: 250px) and (min-width: 1200px) and (max-height: 350px) and (max-width: 1300px) {
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: block;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}  
+    }
+
+    @media (min-height: 700px) and (min-width: 300px) and (max-height: 900px) and (max-width: 400px) {
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: block;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}  
+    }
+
+    @media (min-height: 600px) and (min-width: 2000px) and (max-height: 1200px) {
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: block;}
+        #panelF {display: block;}
+        #panelG {display: none;}  
+    }
+
+    @media (min-height: 300px) and (min-width: 2000px) and (max-height: 400px) {
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: block;}  
+    }
+
+    
+
+    
+
+
+    /*@media screen and (max-width: 950px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+    }  
+        
+    @media screen and (max-width: 900px) {
+
+        #panelA {display: block;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+    }    
+    
+    @media screen and (max-width: 850px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+			
+	}
+
+	@media screen and (max-width: 700px) {
+
+        #panelA {display: none;}
+        #panelB {display: block;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+			
+    }
+    
+    @media screen and (max-width: 650px) {
+
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+			
+	}
+	
+	@media screen and (max-height: 740px) {
+
+	
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: none;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+	
+    }
+    
+    @media screen and (max-height: 400px){
+        #panelA {display: none;}
+        #panelB {display: none;}
+        #panelC {display: block;}
+        #panelD {display: none;}
+        #panelE {display: none;}
+        #panelF {display: none;}
+        #panelG {display: none;}
+    }*/

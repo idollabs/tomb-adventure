@@ -1,0 +1,74 @@
+body {font-family: 'Frijole', cursive; }
+
+h1 {font-size: 7vw;}
+h2 {font-size: 5vw;}
+
+
+#primeHeader{font-family: 'Frijole', cursive;  
+line-height: 80%;
+text-align: center;
+margin-top: 10%;
+
+}
+
+#enterButton h3 { display: inline; font-size: 4vw; text-align: center;
+background-color: aquamarine;
+border-style: groove;
+border-color: black;
+border-width: 4px;
+border-radius: 10%;
+
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.6vw 1.2vw;
+  border-radius: 10%;
+}
+
+#warningPage{display: none;}
+#infoImg{display: none;};
+#panelA {display: none;}
+#panelImgA {display: none;}
+
+#panelB {display: none;}
+#panelC {display: none;}
+#panelD {display: none;}
+#panelE {display: none;}
+#panelF {display: none;}
+#panelG {display: none;}
+
+#reward {display: none;}
+
+
+@media screen and (max-width: 850px) {
+    #primeHeader{display: none;}
+    #enterButton{display: none;}
+
+    #warningPage {display: inline; 
+        font-family: 'Architects Daughter', cursive;
+        font-size: 5vw;
+        text-align: center;
+        }
+
+        #wPName h1{font-family: 'Frijole', cursive;}
+
+        #infoImg{display: none;};
+
+}
+
+@media screen and (max-height: 650px) {
+  #primeHeader{display: none;}
+  #enterButton{display: none;}
+
+  #warningPage {display: inline; 
+      font-family: 'Architects Daughter', cursive;
+      font-size: 5vw;
+      text-align: center;
+      }
+
+      #wPName h1{font-family: 'Frijole', cursive;}
+
+      #infoImg{display: none;};
+
+}
